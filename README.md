@@ -61,3 +61,18 @@ git clone https://github.com/roh-ann23/voting_app.git
   - `GET /users/profile` - Get user profile information.
 - **Change Password**
   - `PUT /users/profile/password` - Change user password.
+
+## Installation
+
+To get started with this application, clone the repository and install the dependencies.
+
+```bash
+git clone https://github.com/roh-ann23/voting_app.git
+cd voting_app
+npm install
+```
+
+## Usage
+```bash
+npm start
+```
