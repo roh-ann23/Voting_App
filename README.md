@@ -73,6 +73,7 @@ npm install
 ```
 
 ## Usage
+After installing, you can start the server with:
 ```bash
 npm start
 ```
