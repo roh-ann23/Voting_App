@@ -2,6 +2,13 @@
 
 This backend application for a voting system allows users to vote for candidates. It includes functionalities for user authentication, candidate management, and voting.
 
+## Prerequisites
+
+Before you can run the server using these models, make sure you have the following installed:
+- Node.js
+- MongoDB
+- NPM or Yarn (NPM used in Voting_App)
+
 ## Features
 
 - **User Authentication:**
