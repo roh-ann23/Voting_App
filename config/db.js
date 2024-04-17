@@ -5,10 +5,10 @@ dotenv.config();
 
 const MONGODB_URI = `${process.env.MONGO_URI}`
 // Set Up mongoDB connection
-mongoose.connect(MONGODB_URI)  //, {
-    // useNewUrlParser : true,
-    // useUnifiedTopology:true
-// });
+mongoose.connect(MONGODB_URI  , {
+    useNewUrlParser : true,
+    useUnifiedTopology:true
+});
 
 
 // Set up default connection
@@ -18,7 +18,7 @@ const db = mongoose.connection;
 // Define event listener for databases 
 
 db.on('connected',()=>{
-    console.log("Connected to Database");
+    // console.log("Connected to Database");
 })
 
 db.on('error',(err)=>{
