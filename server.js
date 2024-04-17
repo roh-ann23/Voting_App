@@ -55,6 +55,6 @@ app.get("/",function (req, res) {
   });
 
 app.listen(4000,()=>{
-    console.log(`Server is listening on ${mode} mode to ${PORT} port number`);
+    // console.log(`Server is listening on ${mode} mode to ${PORT} port number`);
 });
   

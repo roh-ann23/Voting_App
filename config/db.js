@@ -17,15 +17,15 @@ const db = mongoose.connection;
 // Define event listener for databases 
 
 db.on('connected',()=>{
-    console.log("Connected to Database");
+    // console.log("Connected to Database");
 })
 
 db.on('error',(err)=>{
-    console.log("Error on Database" + err);
+    // console.log("Error on Database" + err);
 })
 
 db.on('disconnected',()=>{
-    console.log("Disonnected to Database");
+    // console.log("Disonnected to Database");
 })
 
 export default db;
